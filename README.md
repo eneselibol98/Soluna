@@ -3,7 +3,14 @@
 Uygulama ilk açıldığında gösterilen, **5 dakika geçerli %40 indirimli** Luna Elit teklif ekranı.
 React Native + RevenueCat. Yalnızca iOS için hazırlandı (Android'de de çalışır, mağaza kurulumu ayrıca yapılmalı).
 
-Tasarım referansı: [SOLUNA Paywall – Luna Elit (tasarım tuvali)](https://claude.ai/artifact/QvqFrPkD2hwvVgLFtxRsDR)
+## Tasarım
+
+| Teklif aktif | Süre dolunca |
+|---|---|
+| <img src="docs/paywall-teklif-aktif.png" width="300" alt="Teklif aktif"> | <img src="docs/paywall-sure-doldu.png" width="300" alt="Süre doldu"> |
+
+- Görseller iPhone @3x (1170×2532). Ölçü, renk ve font için **kaynak koddur**: `theme.ts` ve `LunaElitPaywall.tsx`.
+- Canlı önizleme: repoyu indirip `docs/paywall-preview.html`'i tarayıcıda açın (sayaç çalışır). `?expired=1` süre dolmuş hali, `?s=10` sayacı 10 saniyeden başlatır.
 
 | | Teklif aktif | Süre dolunca |
 |---|---|---|
